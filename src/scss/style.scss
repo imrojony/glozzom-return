@@ -1,1 +1,14 @@
+.navbar{
+  background: #000;
+  .nav-item{
+    padding-left: 1em ;
+    .nav-link{
+      text-transform: uppercase;
+    }
+  }
+}
+@media(max-width:768px) {
 
+  .nav-item{
+    padding-left: 0em !important;}
+}
