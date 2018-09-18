@@ -7,8 +7,30 @@
     }
   }
 }
+.carousel-item{
+  height: 450px;
+}
+
+  .carousel-img-1{
+    background: url("../img/img10.jpg");
+    background-size: cover;
+}
+.carousel-img-2{
+  background: url("../img/img8.jpg");
+  background-size: cover;
+}
+.carousel-img-3{
+  background: url("../img/img7.jpg");
+  background-size: cover;
+}
 @media(max-width:768px) {
 
   .nav-item{
     padding-left: 0em !important;}
+}
+@media(max-width:480px) {
+  .carousel{
+    h2{font-size: 2.5rem;
+    }
+  }
 }
