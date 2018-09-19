@@ -1,3 +1,5 @@
+$icon-size:50px;
+
 .navbar{
   background: #000;
   .nav-item{
@@ -23,6 +25,11 @@
   background: url("../img/img7.jpg");
   background-size: cover;
 }
+#homeicon{
+  .fa{
+      font-size:$icon-size;
+  }
+}
 @media(max-width:768px) {
 
   .nav-item{
@@ -34,3 +41,4 @@
     }
   }
 }
+

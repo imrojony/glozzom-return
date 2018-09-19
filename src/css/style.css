@@ -20,6 +20,9 @@
   background: url("../img/img7.jpg");
   background-size: cover; }
 
+#homeicon .fa {
+  font-size: 50px; }
+
 @media (max-width: 768px) {
   .nav-item {
     padding-left: 0em !important; } }
