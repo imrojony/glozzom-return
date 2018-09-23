@@ -67,6 +67,12 @@ $dark-overlay:rgba(0,0,0,0.7px);
     }
   }
 }
+#gallery{
+  img{
+    min-height:250px;
+
+  }
+}
 @media(max-width:768px) {
 
   .nav-item{

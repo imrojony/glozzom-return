@@ -56,6 +56,9 @@
       font-size: 50px;
       color: #ff0000; }
 
+#gallery img {
+  min-height: 250px; }
+
 @media (max-width: 768px) {
   .nav-item {
     padding-left: 0em !important; }
