@@ -59,6 +59,9 @@
 #gallery img {
   min-height: 250px; }
 
+#copyright {
+  background: #000; }
+
 @media (max-width: 768px) {
   .nav-item {
     padding-left: 0em !important; }
@@ -69,4 +72,4 @@
   .carousel h2 {
     font-size: 2.5rem; }
   #getstarted {
-    min-height: 350px; } }
+    min-height: 400px; } }

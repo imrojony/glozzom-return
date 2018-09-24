@@ -13,7 +13,7 @@
 </head>
 <body>
 <!--navigation-->
-<nav class="navbar navbar-dark navbar-expand-md">
+<nav class="navbar navbar-dark navbar-expand-md" uk-sticky="top: 200; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
   <div class="container">
     <a href="index.html" class="navbar-brand">glozzom</a>
     <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav">
@@ -51,7 +51,7 @@
     <div class="carousel-inner">
       <div class="carousel-item carousel-img-1 active">
         <div class="container">
-          <div class="carousel-caption mb-5 pb-5">
+          <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
             <h2 class="display-4">Heading One</h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
             <a href="" class="btn btn-warning">Learn More</a>
@@ -60,7 +60,7 @@
       </div>
       <div class="carousel-item carousel-img-2">
         <div class="container">
-          <div class="carousel-caption mb-5 pb-5">
+          <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
             <h2 class="display-4">Heading Two</h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
             <a href="" class="btn btn-danger">Learn More</a>
@@ -69,7 +69,7 @@
       </div>
       <div class="carousel-item carousel-img-3">
         <div class="container">
-          <div class="carousel-caption mb-5 pb-5 text-left">
+          <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-left">
             <h2 class="display-4">Heading Three</h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
             <a href="" class="btn btn-primary">Learn More</a>
@@ -214,7 +214,29 @@
       </div>
       </div>
     </div>
-
+  </div>
+</section>
+<!--Newsletter-->
+<section id="newsLetter" class="py-5 bg-dark text-center text-light">
+  <div class="container">
+    <h2>Signup For Our Newsletter</h2>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis magnam similique esse assumenda quasi repellendus illum perferendis quos aliquid possimus.Name</p></div>
+  <form action="#" method="post" class="form-inline justify-content-center">
+    <label for="name" class="sr-only">Name</label>
+    <input type="text" placeholder="Enter Name" class="form-control m-2">
+    <label for="email" class="sr-only">Email</label>
+    <input type="email" placeholder="Enter Email"class="form-control m-2">
+    <input type="submit" value="subscribe" class="m-2">
+  </form>
+</section>
+<!--copyright-->
+<section id="copyright" class="py-3 text-light text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col mb-0">
+        <p class="lead">copyright 2018 &copy; glozzom </p>
+      </div>
+    </div>
   </div>
 
 </section>

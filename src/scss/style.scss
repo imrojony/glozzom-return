@@ -73,6 +73,9 @@ $dark-overlay:rgba(0,0,0,0.7px);
 
   }
 }
+#copyright{
+  background: #000;
+}
 @media(max-width:768px) {
 
   .nav-item{
@@ -92,7 +95,7 @@ $dark-overlay:rgba(0,0,0,0.7px);
   }
 
   #getstarted{
-    min-height: 350px;
+    min-height: 400px;
 
   }
 }
