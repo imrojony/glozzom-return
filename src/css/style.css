@@ -62,6 +62,20 @@
 #copyright {
   background: #000; }
 
+#page-header {
+  background: url("../img/p1.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+#about-info img {
+  width: 350px;
+  height: 350px; }
+
+#icon-boxes .fa {
+  font-size: 50px;
+  margin-bottom: 20px; }
+
 @media (max-width: 768px) {
   .nav-item {
     padding-left: 0em !important; }

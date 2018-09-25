@@ -76,6 +76,24 @@ $dark-overlay:rgba(0,0,0,0.7px);
 #copyright{
   background: #000;
 }
+#page-header{
+  background: url("../img/p1.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+#about-info{
+  img{
+    width: 350px;
+    height: 350px;
+  }
+}
+#icon-boxes{
+  .fa{
+    font-size: $icon-size;
+    margin-bottom:20px;
+  }
+}
 @media(max-width:768px) {
 
   .nav-item{
