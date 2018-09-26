@@ -76,6 +76,10 @@
   font-size: 50px;
   margin-bottom: 20px; }
 
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #000; }
+
 @media (max-width: 768px) {
   .nav-item {
     padding-left: 0em !important; }

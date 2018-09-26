@@ -94,6 +94,12 @@ $dark-overlay:rgba(0,0,0,0.7px);
     margin-bottom:20px;
   }
 }
+#testimonial{
+  .slick-prev::before,
+  .slick-next::before{
+    color: #000;
+  }
+}
 @media(max-width:768px) {
 
   .nav-item{
