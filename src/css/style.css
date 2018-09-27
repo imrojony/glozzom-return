@@ -80,6 +80,12 @@
 #testimonial .slick-next::before {
   color: #000; }
 
+#services-page-header {
+  background: url("../img/p8.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
 @media (max-width: 768px) {
   .nav-item {
     padding-left: 0em !important; }

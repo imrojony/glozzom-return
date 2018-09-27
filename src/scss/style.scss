@@ -100,6 +100,12 @@ $dark-overlay:rgba(0,0,0,0.7px);
     color: #000;
   }
 }
+#services-page-header{
+  background: url("../img/p8.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
 @media(max-width:768px) {
 
   .nav-item{
