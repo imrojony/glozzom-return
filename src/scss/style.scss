@@ -106,6 +106,13 @@ $dark-overlay:rgba(0,0,0,0.7px);
   height: 200px;
   background-attachment: fixed;
 }
+#blog-page-header{
+  background: url("../img/p1.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+
 @media(max-width:768px) {
 
   .nav-item{
