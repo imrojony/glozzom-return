@@ -107,7 +107,13 @@ $dark-overlay:rgba(0,0,0,0.7px);
   background-attachment: fixed;
 }
 #blog-page-header{
-  background: url("../img/p1.jpg");
+  background: url("../img/p2.jpg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+#contact-page-header{
+  background: url("../img/p0.jpg");
   background-size: cover;
   height: 200px;
   background-attachment: fixed;
